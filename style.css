@@ -1,0 +1,50 @@
+body {
+    background-image: url(https://www.muralsyourway.com/media/catalog/product/cache/1/base/1200x/040ec09b1e35df139433887a97daa66f/c/u/cute-triceratops-pattern-wallpaper.jpg);
+    background-size: repeat-y;
+}
+
+h1 {
+    color: #9DC462;
+    text-align: center;
+    text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
+    font-size: 8em;
+}
+
+h3 {
+    text-align: center;
+    color: #2F4E00;;
+    font-size: 2em;
+    background-color: rgba(170, 57, 57,0.2);
+    border-radius: 25px;
+}
+
+#ScottsTots {
+    align-items: center;
+    border-radius: 25px;
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 45%;
+  
+}
+
+#omgno {
+    border-radius: 50%;
+    width: 20em;
+    padding: 2em;
+}
+
+#worstface {
+    border-radius: 50%;
+    width: 20em;
+    padding: 2em;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+#cryface {
+    border-radius: 50%;
+    width: 20em;
+    padding: 2em;
+}
