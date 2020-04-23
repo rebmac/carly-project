@@ -1,32 +1,26 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+
+  <script src="login.js"></script>
+
+  <link rel="stylesheet" href="login-style.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>For Carly</title>
+    <title>Login</title>
     <link rel="stylesheet" type="text/css" href="style.css">
     <link id="tinycarly" rel="icon" href="https://scontent.fybz1-1.fna.fbcdn.net/v/t31.0-8/30073342_10104391001999080_6593465163407492192_o.jpg?_nc_cat=107&_nc_sid=85a577&_nc_oc=AQkOI8xVIEVIVY-l_KBmAQY8_zDjeO3c4oIwMQt1E1aaD1JUc1qrYHMv8hvyWZ6rWNYX8Sw-ai_KNQotY9p-SBIz&_nc_ht=scontent.fybz1-1.fna&oh=fc87f97dded62825b940ef6662744d83&oe=5EBCA870">
 </head>
 <body>
-    <h1>The Feel Better Carly Project</h1>
-    <h3>Remember, no matter how bad it gets,<br> that you didn't 
-        promise to pay for the tuition of an entire elementary
-         school class<br> only to forget immediately</h3>
-         
-<img src="https://media.giphy.com/media/3og0IU2CCxcCsu0bgk/giphy.gif" alt="omgno" id="omgno">
-<img src="https://media.giphy.com/media/jOpLbiGmHR9S0/giphy.gif" alt="worstface" id="worstface">
-<img src="https://static.wixstatic.com/media/4eeac6_87b94b58fa634c6e945c3817241cc367~mv2.gif" alt="cryface" id="cryface">
+<div id="login">
+<!--  Forms are weird, return false prevents it from refreshing the page, I can teach you all about weird forms sometime -->
+  <form name='form-login' onsubmit="return false">
+    <span class="fontawesome-lock"></span>
+    <input type="password" name="password" maxlength="8" class="span7" id="pass" placeholder="Password" required/>
 
-
-<img src="https://img.buzzfeed.com/buzzfeed-static/static/2019-09/23/21/
-enhanced/4073a1d4bda0/enhanced-4518-1569274549-1.jpg?downsize=700:*&output
--format=auto&output-quality=auto" alt="ScottsTots" id="ScottsTots">
-
-
-<ul>    
-    <li>Office Memes</li>
-    <li></li>
-
-</ul>
+    <button type="submit" onclick="onSubmit()">Sign In</button>
+  </form>
+</div>
+    
 </body>
 </html>
