@@ -13,7 +13,7 @@ function onSubmit() {
     xhr.send();
 
   } else {
-    alert('Access Denied, Please try again');
+    alert('Access Denied, Please try again\n \n \n HINT: It made me laugh when I heard it, but Pam got really offended');
   }
   return false;
 }
