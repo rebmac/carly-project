@@ -8,7 +8,11 @@ h1 {
     text-align: center;
     text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
     font-size: 8em;
-    line-height: 20px;
+    line-height: 200px;
+}
+
+h1, h3, p , li, footer{
+    font-family: 'Raleway', sans-serif;
 }
 
 h3 {
@@ -17,7 +21,13 @@ h3 {
     font-size: 2em;
     background-color: rgba(170, 57, 57,0.2);
     border-radius: 25px;
+    line-height: 1.5em;
 }
+
+.gifs {
+    display: flex;
+  justify-content: space-between;
+  }
 
 #ScottsTots {
     align-items: center;
@@ -26,26 +36,45 @@ h3 {
   margin-left: auto;
   margin-right: auto;
   width: 45%;
+  border: 2px solid #2F4E00;
   
 }
 
 #omgno {
     border-radius: 50%;
     width: 20em;
-    padding: 2em;
+    /* margin: 2em; */
+    border: 2px solid #2F4E00;
 }
 
 #worstface {
-    border-radius: 50%;
+    border-radius: 75%;
     width: 20em;
-    padding: 2em;
-    margin-left: auto;
-    margin-right: auto;
-
+    /* margin-left: auto;
+    margin-right: auto; */
+    border: 2px solid #2F4E00;
 }
 
 #cryface {
     border-radius: 50%;
-    width: 20em;
-    padding: 2em;
+    /* width: 20em;
+    margin: 2em; */
+    border: 2px solid #2F4E00;
+}
+
+.button {
+    transition-duration: 0.4s;
+  }
+  
+  .button:hover {
+    background-color: #4CAF50; /* Green */
+    color: white;
+  }
+ul {
+    float: left;
+}
+
+footer {
+    clear: both;
+    text-align: center;
 }
