@@ -4,7 +4,17 @@
     background: #4A9470;
     color: white;
     font-size: 30px;
-  }
+    box-sizing: border-box;
+}
+@media only screen and (max-width: 659px){
+    .header {
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+}
+
 
 .togethermemes {
     display: flex;
@@ -22,6 +32,8 @@ h1, h3, p , li, footer, h5{
 .meme{
     margin-top: 5em;
     border: 1em solid black;
+    max-width: 100vw;
+    box-sizing: border-box;
 }
 
 h5 {
@@ -40,4 +52,5 @@ footer {
     justify-content: center;
     background-color: #4A9470;
     color: white;
+    font-size: 1rem;
 }
