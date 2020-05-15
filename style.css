@@ -19,33 +19,3 @@ h3 {
     border-radius: 25px;
 }
 
-#ScottsTots {
-    align-items: center;
-    border-radius: 25px;
-    display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 45%;
-  
-}
-
-#omgno {
-    border-radius: 50%;
-    width: 20em;
-    padding: 2em;
-}
-
-#worstface {
-    border-radius: 50%;
-    width: 20em;
-    padding: 2em;
-    margin-left: auto;
-    margin-right: auto;
-
-}
-
-#cryface {
-    border-radius: 50%;
-    width: 20em;
-    padding: 2em;
-}
