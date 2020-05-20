@@ -39,8 +39,8 @@ h1, h3, p , li, footer, h5{
 }
 
 h5 {
-    color: #B4DBC8;
-    line-height: 2rem
+    color: #b4dbc8;
+/*    line-height: 2rem */
     letter-spacing: 2px;
 }
 
