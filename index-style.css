@@ -21,10 +21,6 @@ input {
   -webkit-appearance: none;
 }
 
-p {
-  line-height: 1.5em;
-}
-
 after { clear: both; }
 
 #login {
